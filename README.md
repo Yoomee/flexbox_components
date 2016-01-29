@@ -2,7 +2,6 @@
 
 A library of flexbox components, or blocks, with graceful fallback support for IE8+
 
----
 
 ## Equal height cards
 
