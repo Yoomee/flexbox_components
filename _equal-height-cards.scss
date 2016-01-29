@@ -1,0 +1,26 @@
+/**
+ * Equal height cards
+ *
+ * Cards will display in rows at the same height as the tallest sibling on that row.
+ *
+ * Note:
+ * Adjustments may be needed for whitespace when using inline-block as a fall back. e.g - a negative margin.
+ * Media queries should be used to adjust the width/stacking of cards at different breakpoints.
+ *
+ */
+
+ .card-container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .card-outer {
+   display: inline-block;
+   display: flex;
+   width: 33%;
+   padding: 0 15px;
+   margin: 0 0 30px;
+   vertical-align: top;
+ }
+ .card {
+   width: 100%;
+ }
